@@ -11,7 +11,7 @@ We demonstrate the U-SAID generates denoised image has:
 
 We also manifest U-SAID's superior generalizability in three folds: 
 * denoising unseen types of images <br>
-* pre-processing unseen noisy images for seg- mentation <br>
+* pre-processing unseen noisy images for segmentation <br>
 * pre-processing unseen images for unseen high-level tasks. <br>
 
 ## Dataset
