@@ -14,8 +14,14 @@ We also manifest U-SAID's superior generalizability in three folds:
 * pre-processing unseen noisy images for segmentation; <br>
 * pre-processing unseen images for unseen high-level tasks. <br>
 
+## Methods
+![](https://github.com/sharonwang1/seg_denoising/blob/master/docs/images/FlowChart.png)
+<p align="center">
+<b>U-SAID</b>: Network architecture. The USA module is composed of a feature embedding sub-network for transforming the denoised image to a feature space, followed by an unsupervised segmentation sub-network that projects the feature to a segmentation map and calculates its pixel-wise uncertainty.
+</p>
+
 ## Dataset
-We use PASCAL VOC 2012 (http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) for both training and validation.
+We use [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) for both training and validation.
 
 ## Training
 Use USAID_train.py to train.
