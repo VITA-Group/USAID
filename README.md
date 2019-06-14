@@ -20,11 +20,13 @@ We also manifest U-SAID's superior generalizability in three folds:
 <b>U-SAID</b>: Network architecture. The USA module is composed of a feature embedding sub-network for transforming the denoised image to a feature space, followed by an unsupervised segmentation sub-network that projects the feature to a segmentation map and calculates its pixel-wise uncertainty.
 </p>
 
-## Dataset
-We use [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html) for both training and validation.
+## Visual Examples
+### Visual comparison on [Kodak](http://r0k.us/graphics/kodak/) Images
+![](https://github.com/sharonwang1/seg_denoising/blob/master/docs/images/kodak_house.jpg)
+![](https://github.com/sharonwang1/seg_denoising/blob/master/docs/images/kodak_ship.jpg)
 
-## Training
-Use USAID_train.py to train.
+### Semantic segmentation from [Pascal VOC 2012 validation set](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
+![](https://github.com/sharonwang1/seg_denoising/blob/master/docs/images/VOC_segmentation.jpg)
 
 ## Citation
 If you use this code for your research, please cite our paper.
