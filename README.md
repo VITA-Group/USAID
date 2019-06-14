@@ -22,7 +22,7 @@ We also manifest U-SAID's superior generalizability in three folds:
 
 ## Visual Examples
 ### Visual comparison on [Kodak](http://r0k.us/graphics/kodak/) Images
-![](https://github.com/sharonwang1/seg_denoising/blob/master/docs/images/kodak_house.jpg)
+
 ![](https://github.com/sharonwang1/seg_denoising/blob/master/docs/images/kodak_ship.jpg)
 
 ### Semantic segmentation from [Pascal VOC 2012 validation set](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
