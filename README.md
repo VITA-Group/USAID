@@ -29,7 +29,7 @@ We also manifest U-SAID's superior generalizability in three folds:
 
 ## How to run
 ### Dependences
-* [PyTorch](http://pytorch.org/)(<0.4)
+* [PyTorch](http://pytorch.org/)
 * [torchvision](https://github.com/pytorch/vision)
 * OpenCV for Python
 * [tensorboardX](https://github.com/lanpa/tensorboard-pytorch) (TensorBoard for PyTorch)
