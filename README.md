@@ -4,14 +4,14 @@ Implement of the paper: <br> <br>
 Sicheng Wang, Bihan Wen, Junru Wu, Dacheng Tao, Zhangyang Wang <br>
 
 ## Overview
-we propose a segmentation-aware image denoising model dubbed U-SAID, which does not need any ground-truth segmentation map in training, and thus can be applied to any image dataset directly. 
+we propose a segmentation-aware image denoising model dubbed **U-SAID**, which does not need any ground-truth segmentation map in training, and thus can be applied to any image dataset directly. 
 We demonstrate the U-SAID generates denoised image has:
-* better visual quality <br>
-* stronger robustness for subsequent semantic segmentation tasks <br>
+* better visual quality; <br>
+* stronger robustness for subsequent semantic segmentation tasks. <br>
 
 We also manifest U-SAID's superior generalizability in three folds: 
-* denoising unseen types of images <br>
-* pre-processing unseen noisy images for segmentation <br>
+* denoising unseen types of images; <br>
+* pre-processing unseen noisy images for segmentation; <br>
 * pre-processing unseen images for unseen high-level tasks. <br>
 
 ## Dataset
@@ -20,3 +20,13 @@ We use PASCAL VOC 2012 (http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.htm
 ## Training
 Use USAID_train.py to train.
 
+## Citation
+If you use this code for your research, please cite our paper.
+```
+@misc{1905.08965,
+Author = {Sicheng Wang and Bihan Wen and Junru Wu and Dacheng Tao and Zhangyang Wang},
+Title = {Segmentation-Aware Image Denoising without Knowing True Segmentation},
+Year = {2019},
+Eprint = {arXiv:1905.08965},
+}
+```
