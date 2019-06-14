@@ -22,11 +22,17 @@ We also manifest U-SAID's superior generalizability in three folds:
 
 ## Visual Examples
 ### Visual comparison on [Kodak](http://r0k.us/graphics/kodak/) Images
-
 ![](https://github.com/sharonwang1/seg_denoising/blob/master/docs/images/kodak_ship.jpg)
 
 ### Semantic segmentation from [Pascal VOC 2012 validation set](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html)
 ![](https://github.com/sharonwang1/seg_denoising/blob/master/docs/images/VOC_segmentation.jpg)
+
+## How to run
+### Dependences
+* [PyTorch](http://pytorch.org/)(<0.4)
+* [torchvision](https://github.com/pytorch/vision)
+* OpenCV for Python
+* [tensorboardX](https://github.com/lanpa/tensorboard-pytorch) (TensorBoard for PyTorch)
 
 ## Citation
 If you use this code for your research, please cite our paper.
