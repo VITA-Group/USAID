@@ -34,9 +34,14 @@ We also manifest U-SAID's superior generalizability in three folds:
 * OpenCV for Python
 * [tensorboardX](https://github.com/lanpa/tensorboard-pytorch) (TensorBoard for PyTorch)
 
-### Training
+### Train
 ```
 USAID_train.py
+```
+
+### Saved Models
+```
+Saved_Models/USAID.pth
 ```
 
 ## Citation
